@@ -6,47 +6,7 @@
         <meta name="description" content="Site sobre informações do IFC">
         <meta name="keywords" content="IFC, Camboriu, Informações, Escola, Campus Camboriú, Campus ifc">
         <meta name="author" content="Caio Amaro Torquato de Oliveira">
-    <style>
-        body {background-color: rgb(190, 255, 190);}
-        h1 {
-            text-align: center;
-            font-size: 300%;
-        }
-        div h2 {
-            text-align: center;
-        }
-        p.cursos {
-            font-size: 100%;
-        }
-        p.cursos:hover {
-            font-size: 150%;
-        }
-        p {
-            text-align: center;
-            font-size: 120%;
-            background-color: rgb(255, 255, 255);
-            border-radius: 10px;
-            transition: font-size 0.3 ease
-        }
-        img.ifc {
-            border-radius: 10px;
-            transform: 0.3 ease;
-        }
-        img.ifc:hover {
-            transform: scale(1.05);
-            border-radius: 30px;
-        }
-        .semsublinhado {
-            text-decoration: none;
-            color: black;
-            font-size: 100%;
-            transition: font-size 0.3 ease;
-        }
-        .semsublinhado:hover {
-            font-size: 115%;
-            color: blue
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <h1><strong>IFC</strong></h1>
@@ -55,24 +15,22 @@
              Cursos de Formação Inicial Continuada (FIC); Educação a Distância (EaD); Educação de Jovens e Adultos (EJA); Ensino Médio integrado a Cursos Técnicos, Cursos Técnicos Concomitantes e Subsequentes; Cursos Superiores de Tecnologia, Licenciatura e Bacharelado. 
              Além do mais, oferta cursos de pós-Graduação lato sensu (especialização) e stricto sensu (mestrados e um doutorado).
         </p>
-    <div style="display: flex; align-items: center; gap: 20px;">
-        <a href="https://ifc.edu.br/conheca-nossos-campi/" target="_blank">
-        <img
-            src="https://ifc.edu.br/wp-content/uploads/2024/11/mapa-IFC-2048x927.png"
-            width="650"
-            height="360"
-            alt="mapa dos campus"
-            class="ifc"
-            alt="Mapa dos campus"
-            />
-        </a>
-        <p classe="geral">
-            O Instituto Federal de Educação, Ciência e Tecnologia Catarinense, ou simplesmente Instituto Federal Catarinense (IFC), é uma instituição de ensino público em Santa Catarina, vinculada ao Ministério da Educação. 
-            Foi criado mediante integração das Escolas Agrotécnicas Federais de Concórdia, de Rio do Sul, de Sombrio e dos Colégios Agrícolas de Camboriú e Araquari. 
-            O IFC possui atualmente 17 campi, distribuídos nas cidades de Abelardo Luz, Araquari, Blumenau, Brusque, Camboriú, Campos Novos, Concórdia, Fraiburgo, Ibirama, Luzerna, Mafra, Rio do Sul, Santa Rosa do Sul, São Bento do Sul, São Francisco do Sul, Sombrio e Videira. 
-            A Reitoria, por sua vez, enquanto órgão de administração central, possui sede própria e está instalada na cidade de Blumenau.
-        </p>
-    </div>
+        <div class="container">
+            <a href="https://ifc.edu.br/conheca-nossos-campi/" target="_blank">
+            <img
+                src="https://ifc.edu.br/wp-content/uploads/2024/11/mapa-IFC-2048x927.png"
+                class="imagem-lado"
+                alt="Mapa dos campus"
+                width="650px"
+             />
+            </a>
+            <p class="texto-lado">
+                 O Instituto Federal de Educação, Ciência e Tecnologia Catarinense, ou simplesmente Instituto Federal Catarinense (IFC), é uma instituição de ensino público em Santa Catarina, vinculada ao Ministério da Educação. 
+                  Foi criado mediante integração das Escolas Agrotécnicas Federais de Concórdia, de Rio do Sul, de Sombrio e dos Colégios Agrícolas de Camboriú e Araquari. 
+                 O IFC possui atualmente 17 campi, distribuídos nas cidades de Abelardo Luz, Araquari, Blumenau, Brusque, Camboriú, Campos Novos, Concórdia, Fraiburgo, Ibirama, Luzerna, Mafra, Rio do Sul, Santa Rosa do Sul, São Bento do Sul, São Francisco do Sul, Sombrio e Videira. 
+                 A Reitoria, por sua vez, enquanto órgão de administração central, possui sede própria e está instalada na cidade de Blumenau.
+            </p>
+        </div>
         <a href="https://www.camboriu.ifc.edu.br/" target="_blank" class="semsublinhado">
             <p>
                 <strong>Camboriú</strong>
@@ -138,7 +96,7 @@
                 <strong>São Francisco do sul</strong>
             </p>
         </a>
-        <a heref="https://sombrio.ifc.edu.br/" target="_blank" class="semsublinhado">
+        <a href="https://sombrio.ifc.edu.br/" target="_blank" class="semsublinhado">
             <p>
                 <strong>Sombrio</strong>
             </p>

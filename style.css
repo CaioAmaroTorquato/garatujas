@@ -1,0 +1,52 @@
+
+        body {
+            background-color: #218838;
+        }
+        h1 {
+            text-align: center;
+            font-size: 300%;
+            color: white
+        }
+        div h2 {
+            text-align: center;
+        }
+        p {
+            text-align: center;
+            background-color: white;
+            border-radius: 10px
+        }
+        p.cursos {
+            transition: font-size 0.3 ease
+        }
+        p.cursos:hover {
+            font-size: 130%;
+        }
+        .semsublinhado {
+            text-decoration: none;
+            color: black;
+            transition: font-size 0.3 ease;
+        }
+        .semsublinhado:hover {
+            font-size: 115%;
+            color: blue
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            transition: transform 0.3 ease;
+        }
+        .imagem-lado {
+            border-radius: 10px;
+            transition: transform 0.3 ease
+        }
+        .imagem-lado:hover {
+            transform: scale(1.05)
+        }
+        .texto-lado {
+            font-size: 120%;
+            transition: font-size 0.3 ease
+        }
+        .texto-lado:hover {
+            font-size: 130%
+        }
