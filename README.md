@@ -1,5 +1,7 @@
 # garatujas
-HTML para eu do futuro:
+HTML e CSS para o futuro:
+HTML:
+Gerenciador de textos e imagens
 
 CSS:
-Consite em aprimorar a aparência do site, sem ele o site ficaria só com textos e imagens
+responsável pela aparência do site
